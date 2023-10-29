@@ -27,23 +27,57 @@
     background-color: white;
 }
 
+.btn-search {
+    color: #ffffff;
+    padding: 0.8rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.btn-search:hover {
+    color: lightblue;
+}
+
+.container a:hover {
+    color: lightblue;
+    background: transparent;
+}
+/* Navbar End */
+
+body {
+    background-color: #272727;
+}
+
+.container-fluid {
+    height: 100%;
+}
+
+/* Carousel */
+.carousel-item img {
+    height: 500px;
+}
+/* Carousel End */
+
+h2, i {
+    color: #ffffff;
+}
+
 /* Design */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
-
-html {
-  background-color: #ecf9ff;
-}
-
-body {
-  color: #272727;
-  font-family: "Quicksand", serif;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0;
 }
 
 .main {
