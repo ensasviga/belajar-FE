@@ -1,5 +1,6 @@
 /* Font */
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
 
@@ -67,6 +68,12 @@ body {
 .carousel-item img {
     height: 500px;
 }
+
+.carousel-item h5, p {
+  color: lightblue;
+  font-family: arial;
+}
+
 /* Carousel End */
 
 h2, i {
@@ -116,15 +123,15 @@ img {
 }
 
 .cards {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: 1rem;
 }
 
 .cards_item {
-  display: flex;
+  display: grid;
   padding: 1rem;
 }
 
@@ -144,15 +151,18 @@ img {
   background-color: white;
   border-radius: 0.25rem;
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-  display: flex;
+  display: grid;
   flex-direction: column;
   overflow: hidden;
+  width: 250px;
+  margin: 0px;
 }
 
 .card_content {
   padding: 1rem;
   background: linear-gradient(to bottom left, #448ee4 40%, #00008b 100%);
 }
+
 
 .card_title {
   color: #ffffff;
